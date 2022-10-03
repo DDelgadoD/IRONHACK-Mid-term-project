@@ -1,0 +1,51 @@
+/* ¡Tu CSS ahora CON BULMA! */
+/* https://www.youtube.com/watch?v=ra-Bl1iYG7g */
+
+@import url("./bulma/css/bulma.css");
+
+/* ¡Y solo para las primeras llamadas las fuentes y colores definidas en el proyecto!*/
+/* https://www.youtube.com/watch?v=fsQiHTSpiYw*/
+
+@import url("./colors-fonts.css");
+
+/* Todo lo que necesitas para hacerte tu propio navbar ¡A NAVEGAR!*/
+/* https://www.youtube.com/watch?v=m8OlDPqYBLw */
+
+.background{ background-color: var(--background);}
+
+header { max-width: 1100px;}
+
+.navbar-1{ margin-top: 70px;}
+
+.navbar-li{
+    justify-content: space-between;
+    margin-left:25%;
+}
+
+.navbar-li a{ 
+    color: var(--grey);
+    margin: 0 5%;
+}
+
+.navbar-li a:hover{ background-color: inherit;}
+
+.navbar-li a:first-child{ color: var(--marine);}
+
+.logo{ width: 60px;}
+
+.button-bw {
+    height:fit-content;
+}
+
+.button-bw a{ 
+    color:white;
+    padding:13px 30px;
+    background-color: var(--marine);
+}
+
+.button-bw a:hover{ background-color: var(--grey);}
+
+.f-end{ justify-content:flex-end;}
+
+/* "This is the end, my only friend, THE END"*/
+/* https://www.youtube.com/watch?v=VScSEXRwUqQ*/

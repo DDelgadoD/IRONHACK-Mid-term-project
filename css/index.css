@@ -1,58 +1,43 @@
-@import url("./colors-fonts.css");
-@import url("./bulma/css/bulma.css");
+/*  Todo lo que necesitas para que tu landing-page quede rechulona! */
+/* https://www.youtube.com/watch?v=dw7c2mksw5g */
 
-.background{ background-color: var(--background); }
+/* Con una línea solucionamos los estilos del navbar, ¡el CSS es fácil pregúnteme como!*/
+/* https://www.youtube.com/watch?v=RVmG_d3HKBA */
 
-.navbar-center{
-    padding: 70px 12.5% 0;
-    margin-right: auto;
-    margin-left: auto;
+@import url("./nav-bar.css");
+
+html{
+    min-width: 100%; 
+    background-color: var(--background);
+    padding: 0 calc(50% - 550px)
 }
 
-.navbar-just{
-    justify-content: space-between;
-    margin-left:25%;
-}
-
-.navbar-just a{ 
-    color: var(--grey);
-    margin: 0 5%;
-}
-
-.navbar-just a:hover{ background-color: inherit;}
-
-
-.navbar-just  a:first-child{ color: var(--marine) }
-
-
-.logo{ width: 60px; }
-
-.blue-white{ justify-content:flex-end; }
-
-.blue-white a{ 
-    color:white;
-    padding:5% 10%;
-    background-color: var(--marine);
-}
-
-.blue-white a:hover{
-    background-color: var(--grey);
-}
+/* La parte del chico empoderado que es nuestro HÉROE */
+/* https://www.youtube.com/watch?v=bWcASV2sey0*/
 
 #hero{
+    display: flex;
     background-color: var(--background);
-    padding: 5% 12.5%;
-    display:flex;
+    padding-top:70px;
+    max-width: 1100px;
 }
+
+.content{
+    display: flex;
+    max-width: 530px;
+    flex-direction: column;
+    justify-content:center;
+}
+
+.empower{ margin-bottom: 5%;}
+
+.circle{ margin-bottom: 5%;}
+
+.button-bw p{ display:inline-block}
 
 .images{
     position:relative;
     width:max-content;
-}
-
-.back{
-    width:100%;
-    position:relative;
 }
 
 [id*="card-"]{
@@ -60,16 +45,18 @@
     position: absolute;
 }
 
-[id*="card-"] > img{
-    object-fit: cover;
-}
+[id*="card-"] > img{ object-fit: cover;}
 
 #card-2{
-    bottom:0px;
+    bottom:-15%;
     right:-25%;
 }
 
 #card-1{
-    top:0px;
+    top:0;
+    left:-15%;
 }
+
+/* La parte de las BRANDS */
+/* https://www.youtube.com/watch?v=OutlyuZFOWM*/
 

@@ -1,4 +1,10 @@
+/* Importamos las fuentes, que en realidad es ROBOTO solo */
+/* https://www.youtube.com/watch?v=qORYO0atB6g*/
+
 @import url('./Roboto/roboto.css');
+
+/* Definimos los colores en la raíz del proyecto */
+/* https://www.youtube.com/watch?v=e4RMh7NLHPY */
 
 :root {
     --marine: #072AC8;
@@ -12,6 +18,9 @@
     --yellow: #FFC600;
     --background: #F4F6FC;
 }
+
+/* Adaptamos las fuentes a las medidas del proyecto... changing */
+/* https://www.youtube.com/watch?v=RSNmgE6L8AU */
 
 .c-h1, .c-h2, .c-h3, h4, .bi-med, .bi-reg, .hd-med, .hd-reg, .cap-1, .cap-2{
     font-family: 'Roboto';
@@ -44,3 +53,6 @@ h4{font-size: 24px;}
     font-size: 13px;
     line-height: 15px;
 }
+
+/* But in the end It doesn't even matter*/
+/* https://www.youtube.com/watch?v=eVTXPUF4Oz4 */
