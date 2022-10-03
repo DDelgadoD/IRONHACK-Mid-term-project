@@ -1,0 +1,75 @@
+@import url("./colors-fonts.css");
+@import url("./bulma/css/bulma.css");
+
+.background{ background-color: var(--background); }
+
+.navbar-center{
+    padding: 70px 12.5% 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.navbar-just{
+    justify-content: space-between;
+    margin-left:25%;
+}
+
+.navbar-just a{ 
+    color: var(--grey);
+    margin: 0 5%;
+}
+
+.navbar-just a:hover{ background-color: inherit;}
+
+
+.navbar-just  a:first-child{ color: var(--marine) }
+
+
+.logo{ width: 60px; }
+
+.blue-white{ justify-content:flex-end; }
+
+.blue-white a{ 
+    color:white;
+    padding:5% 10%;
+    background-color: var(--marine);
+}
+
+.blue-white a:hover{
+    background-color: var(--grey);
+}
+
+#hero{
+    background-color: var(--background);
+    padding: 5% 12.5%;
+    display:flex;
+}
+
+.images{
+    position:relative;
+    width:max-content;
+}
+
+.back{
+    width:100%;
+    position:relative;
+}
+
+[id*="card-"]{
+    width: 50%;
+    position: absolute;
+}
+
+[id*="card-"] > img{
+    object-fit: cover;
+}
+
+#card-2{
+    bottom:0px;
+    right:-25%;
+}
+
+#card-1{
+    top:0px;
+}
+

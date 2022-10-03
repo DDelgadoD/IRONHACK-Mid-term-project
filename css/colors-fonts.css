@@ -1,0 +1,46 @@
+@import url('./Roboto/roboto.css');
+
+:root {
+    --marine: #072AC8;
+    --cyan: #43D2FF;
+    --light-cyan: #A2D6F9;
+    --x-light-cyan: #D1EDFF;
+    --xx-light-cyan: #ECF7FF;
+    --navy: #292E47;
+    --grey: #6B708D;
+    --light-grey: #F2F4FC;
+    --yellow: #FFC600;
+    --background: #F4F6FC;
+}
+
+.c-h1, .c-h2, .c-h3, h4, .bi-med, .bi-reg, .hd-med, .hd-reg, .cap-1, .cap-2{
+    font-family: 'Roboto';
+    font-style: normal;
+} 
+
+h1, .c-h2, .c-h3, h4 {font-weight: 700;}
+
+.c-h1{font-size: 60px;}
+
+.c-h2{font-size: 50px;}
+
+.c-h3{font-size: 40px;}
+
+h4{font-size: 24px;}
+
+[class*="-med"]{font-weight: 500;}
+
+[class*="-reg"], [class*="cap-"]{font-weight: 400;}
+
+.bi-med{font-size: 24px;}
+
+.bi-reg{font-size: 20px;}
+
+.hd-reg, .hd-med{font-size: 17px;}
+
+.cap-1{font-size: 15px;}
+
+.cap-2{
+    font-size: 13px;
+    line-height: 15px;
+}
