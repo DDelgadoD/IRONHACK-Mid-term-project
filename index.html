@@ -7,10 +7,10 @@
         <link rel="stylesheet" href="./css/index.css" />
         <title>Homepage</title>
     </head>
-    <body>
+    <body >
         <header>
             <nav
-                class="navbar navbar-1 headline-medium background"
+                class="navbar container navbar-1 hd-med background section-1100"
                 role="navigation"
                 aria-label="main navigation"
             >
@@ -34,66 +34,274 @@
 
                 <div class="navbar-menu navbar-li">
                     <div class="navbar-item">
-                        <a class="navbar-item">Home</a>
-                        <a class="navbar-item">Projects</a>
-                        <a class="navbar-item">Services</a>
+                        <a class="navbar-item hd-med">Home</a>
+                        <a class="navbar-item hd-med" href="./project.html">Projects</a>
+                        <a class="navbar-item hd-med">Services</a>
                     </div>
                 </div>
 
-                <div class="navbar-menu button-bw f-end">
-                    <a navbar-item href="#">Contact Us</a>
+                <div class="navbar-item button-bw is-hidden-touch">
+                    <a navbar-item class="hd-med" href="./contact.html">Contact Us</a>
                 </div>
+                
             </nav>
         </header>
-        <section id="hero">
-            <div class="content">
-                
-                <div class="empower">
-                    <p class="c-h1">Empower Your Business With Stunning Design!</p>
-                </div>
-                
-                <div class="circle">
-                    Circle is a digital design and development studio. We design
-                    and develop astonishing websites and mobile apps.
+        
+        <section id="hero" class="section-1100 is-flex-desktop">
+                <div class="content is-flex">
+                    
+                    <div class="empower">
+                        <p class="c-h1">Empower Your Business With Stunning Design!</p>
+                    </div>
+                    
+                    <div class="bd-reg circle">
+                        Circle is a digital design and development studio.</br>  
+                        We design and develop astonishing websites and mobile apps.
+                    </div>
+
+                    <div>
+                        <div class="button-bw is-inline-block">
+                            <a class="navbar-item hd-med" href="./contact.html">Get in touch</a>    
+                        </div>
+                        <div class="is-inline-block">
+                            <a class="navbar-item hd-med" href="./project.html">See our work</a>
+                        </div>
+                    </div>
+
                 </div>
 
-                <div class="button-bw">
-                    <a nhref="#">Get in touch</a>
-                    <p>See our work</p>
+                <div class="images">
+                    <img id="back" src="./images/hero-section/hero-image.png" />
+                    
+                    <div id="card-1" class="is-hidden-touch">
+                        <img src="./images/hero-section/card-1.png" />
+                    </div>
+                    
+                    <div id="card-2" class="is-hidden-touch">
+                        <img src="./images/hero-section/card-2.png" />
+                    </div>        
                 </div>
-
-            </div>
-            <div class="images">
-                <img id="back" src="./images/hero-section/hero-image.png" />
-                
-                <div id="card-1">
-                    <img src="./images/hero-section/card-1.png" />
-                </div>
-                
-                <div id="card-2">
-                    <img src="./images/hero-section/card-2.png" />
-                </div>        
-            </div>
-        </section>
-
-        <section id="client">
-            
-            <img src="images/logos/airbnb-logo.svg" />
-            <img src="images/logos/google-logo.svg" />
-            <img src="images/logos/microsoft-logo.svg" />
-            <img src="images/logos/fedex-logo.svg" />
-            <img src="images/logos/amazon-logo.svg" />
-            
 
         </section>
 
-        <section id="projects"></section>
+        <section id="client" class="section-1100 is-flex-desktop is-justify-content-space-around">
+            
+            <div class="brands">
+                <img src="images/logos/airbnb-logo.svg" />
+                <img src="images/logos/google-logo.svg" />
+            </div>
+            
+            <div class="brands">
+                <img src="images/logos/microsoft-logo.svg" />
+                <img src="images/logos/fedex-logo.svg" />
+            </div>
+            
+            <div class="amazon is-hidden-touch is-flex is-justify-content-center">
+                <img src="images/logos/amazon-logo.svg" />
+            </div>    
+        </div>
+            
+        </section>
 
-        <section id="testimonial"></section>
+        <section id="projects" class="section-1100">
 
-        <section id="services"></section>
+            <div id="t-section">
+                <p class="c-h3">Recent Projects</p>
+            </div>
 
-        <section id="cta"></section>
+            <div class="columns is-5 is-one-third">
+                
+                <div class="column">
+                    <div>
+                        <figure class="image is-4by3">
+                            <img src="./images/projects-section/1.jpg" alt="Placeholder image">
+                        </figure>
+                    </div>
+                    <div class="card-content has-background-white">
+                        <div class="media">
+                            <div class="media-content">
+                                <p class="title is-4">John Smith</p>
+                            </div>
+                        </div>
+            
+                        <div class="content">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Phasellus nec iaculis mauris. 
+                            <a href="#">#css</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="column">
+                    <div>
+                        <figure class="image is-4by3">
+                            <img src="./images/projects-section/2.jpg" alt="Placeholder image">
+                        </figure>
+                    </div>
+                    <div class="card-content has-background-white">
+                        <div class="media">
+                            <div class="media-content">
+                                <p class="title is-4">John Smith</p>
+                            </div>
+                        </div>
+            
+                        <div class="content">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Phasellus nec iaculis mauris. 
+                            <a href="#">#css</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="column">
+                    <div>
+                        <figure class="image is-4by3">
+                            <img src="./images/projects-section/3.jpg" alt="Placeholder image">
+                        </figure>
+                    </div>
+                    <div class="card-content has-background-white">
+                        <div class="media">
+                            <div class="media-content">
+                                <p class="title is-4">John Smith</p>
+                            </div>
+                        </div>
+            
+                        <div class="content">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Phasellus nec iaculis mauris.
+                            <a href="#">#css</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="testimonial" class="container">
+            <div class=" t-section">
+                Recent Projects
+            </div>
+            <div class="yellow-text"></div>
+            <img src="images/testimonial-section/memoji-1.png"/>
+            <img src="images/testimonial-section/memoji-2.png"/>
+            <img src="images/testimonial-section/memoji-3.png"/>
+            <img src="images/testimonial-section/memoji-4.png"/>
+            <img src="images/testimonial-section/orbit.png"/>
+
+            
+            <div class="media">
+            <div class="media-left">
+                <figure class="image is-64x64">
+                    <img class="is-rounded aspect-1" src="images/testimonial-section/profile.png">
+                </figure>
+            </div>
+            <div class="media-content">
+                <p class="title is-4">Kristin Watson</p>
+                <p class="subtitle is-6">Booking.com</p>
+            </div>
+           
+
+
+        </section>
+
+        <section id="services" class="section-1100">
+        
+            <div class=" t-section">
+                Recent Projects
+            </div>
+
+            <div class="columns is-5 is-one-third">
+
+                <div class="column ">
+                    <div class="has-background-white">
+                        <div class="media">
+                            <figure class="image is-rounded has-background-info p-3 m-5">
+                                <img src="./images/services-section/icons/1.svg" alt="Placeholder image">
+                            </figure>
+                        </div>
+                        
+                        <div class="card-content">
+                            <div class="media">
+                                <div class="media-content">
+                                    <p class="title is-4">John Smith</p>
+                                </div>
+                            </div>
+                        </div>
+            
+                        <div class="content ml-5">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Phasellus nec iaculis mauris. 
+                            <a href="#">#css</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="column">
+                    <div class="has-background-white">
+                        <div class="media">
+                            <figure class="image is-rounded has-background-info p-3 m-5">
+                                <img src="./images/services-section/icons/2.svg" alt="Placeholder image">
+                            </figure>
+                        </div>
+                        
+                        <div class="card-content">
+                            <div class="media">
+                                <div class="media-content">
+                                    <p class="title is-4">John Smith</p>
+                                </div>
+                            </div>
+                        </div>
+            
+                        <div class="content ml-5">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Phasellus nec iaculis mauris.
+                            <a href="#">#css</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="column">
+                    <div class="has-background-white">
+                        <div class="media">
+                            <figure class="image is-rounded has-background-info p-3 m-5">
+                                <img src="./images/services-section/icons/3.svg" alt="Placeholder image">
+                            </figure>
+                        </div>
+                        
+                        <div class="card-content">
+                            <div class="media">
+                                <div class="media-content">
+                                    <p class="title is-4">John Smith</p>
+                                </div>
+                            </div>
+                        </div>
+            
+                        <div class="content ml-5">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Phasellus nec iaculis mauris.
+                            <a href="#">#css</a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+        <section id="cta" class="container">
+            <div class=" t-section">Do you have any questions?</div>
+            <div> Let us help you!</div>
+
+            <div class="field has-addons">
+            <div class="control">
+                <input class="input" type="text" placeholder="Find a repository">
+            </div>
+            <div class="control">
+                <a class="button is-info">
+                Search
+                </a>
+            </div>
+            </div>
+        </section>
 
         <footer></footer>
     </body>

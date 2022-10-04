@@ -22,32 +22,46 @@
 /* Adaptamos las fuentes a las medidas del proyecto... changing */
 /* https://www.youtube.com/watch?v=RSNmgE6L8AU */
 
-.c-h1, .c-h2, .c-h3, h4, .bi-med, .bi-reg, .hd-med, .hd-reg, .cap-1, .cap-2{
+.c-h1, .c-h2, .c-h3, .c-h4, .bd-med, .bd-reg, .hd-med, .hd-reg, .cap-1, .cap-2{
     font-family: 'Roboto';
     font-style: normal;
 } 
 
-h1, .c-h2, .c-h3, h4 {font-weight: 700;}
+.c-h1, .c-h2, .c-h3, .c-h4 {font-weight: 700;}
 
-.c-h1{font-size: 60px;}
+.c-h1{
+    font-size: 60px;
+    line-height: 70px;
+}
 
 .c-h2{font-size: 50px;}
 
-.c-h3{font-size: 40px;}
+.c-h3{
+    font-size: 40px;
+    line-height: 47px;
+}
 
-h4{font-size: 24px;}
+.c-h4{font-size: 24px;}
 
 [class*="-med"]{font-weight: 500;}
 
 [class*="-reg"], [class*="cap-"]{font-weight: 400;}
 
-.bi-med{font-size: 24px;}
+.bd-med{font-size: 24px;}
 
-.bi-reg{font-size: 20px;}
+.bd-reg{
+    font-size: 20px;
+    line-height: 150%;
+}
 
 .hd-reg, .hd-med{font-size: 17px;}
 
-.cap-1{font-size: 15px;}
+.hd-med{line-height: 130%;}
+
+.cap-1{
+    font-size: 15px;
+    line-height: 130%;
+}
 
 .cap-2{
     font-size: 13px;

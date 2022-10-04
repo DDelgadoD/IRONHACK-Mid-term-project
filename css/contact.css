@@ -1,0 +1,5 @@
+/* Con una línea solucionamos los estilos del navbar, ¡el CSS es fácil pregúnteme como!*/
+/* https://www.youtube.com/watch?v=RVmG_d3HKBA */
+
+@import url("./components/nav-bar.css");
+@import url("./components/footer.css");
