@@ -1,7 +1,7 @@
 /* Importamos las fuentes, que en realidad es ROBOTO solo */
 /* https://www.youtube.com/watch?v=qORYO0atB6g*/
 
-@import url('./Roboto/roboto.css');
+@import url('../Roboto/roboto.css');
 
 /* Definimos los colores en la raíz del proyecto */
 /* https://www.youtube.com/watch?v=e4RMh7NLHPY */
@@ -29,6 +29,13 @@
 
 .c-h1, .c-h2, .c-h3, .c-h4 {font-weight: 700;}
 
+[class*="-med"]{font-weight: 500;}
+
+[class*="-reg"], [class*="cap-"]{
+    font-weight: 400;
+    line-height: 150%;
+}
+
 .c-h1{
     font-size: 60px;
     line-height: 70px;
@@ -43,16 +50,12 @@
 
 .c-h4{font-size: 24px;}
 
-[class*="-med"]{font-weight: 500;}
-
-[class*="-reg"], [class*="cap-"]{font-weight: 400;}
-
-.bd-med{font-size: 24px;}
-
-.bd-reg{
-    font-size: 20px;
-    line-height: 150%;
+.bd-med{
+    font-size: 24px;
+    line-height: auto;
 }
+
+.bd-reg{font-size: 20px;}
 
 .hd-reg, .hd-med{font-size: 17px;}
 

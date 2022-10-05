@@ -6,7 +6,13 @@
 /* ¡Y solo para las primeras llamadas las fuentes y colores definidas en el proyecto!*/
 /* https://www.youtube.com/watch?v=fsQiHTSpiYw*/
 
-@import url("../colors-fonts.css");
+@import url("./colors-fonts.css");
+
+/* ¡Ahora con animaciones!*/
+/*  */
+
+@import url("./animations.css");
+
 
 /* Todo lo que necesitas para hacerte tu propio navbar ¡A NAVEGAR!*/
 /* https://www.youtube.com/watch?v=m8OlDPqYBLw */
@@ -30,16 +36,18 @@
 
 .navbar-li a:hover{ background-color: inherit;}
 
-.navbar-li a:first-child{ color: var(--marine);}
+.navbar-li a:first-child{ 
+    color: var(--marine);
+}
 
 .logo{ 
     width: 60.53px;
     height: 18.46px;
-}
+    animation: bright-boom 3s ease-out;
+};
 
 .button-bw {
     height:fit-content;
-
 }
 
 .button-bw a{ 
@@ -47,9 +55,11 @@
     background-color: var(--marine);
     padding: 15px 37px;
     gap: 10px;
+    animation: palpitate 1.5s linear infinite; 
 }
 
 .button-bw a:hover{ background-color: var(--grey);}
 
 /* "This is the end, my only friend, THE END"*/
 /* https://www.youtube.com/watch?v=VScSEXRwUqQ*/
+

@@ -1,11 +1,12 @@
 /*  Todo lo que necesitas para que tu landing-page quede rechulona! */
 /* https://www.youtube.com/watch?v=dw7c2mksw5g */
 
-/* Con una línea solucionamos los estilos del navbar, ¡el CSS es fácil pregúnteme como!*/
+/* Con una línea solucionamos los estilos del navbar, los proyectos, los servicios, el cta y el footer.
+   ¡El CSS es fácil pregúnteme como!*/
 /* https://www.youtube.com/watch?v=RVmG_d3HKBA */
 
 @import url("./components/nav-bar.css");
-@import url("./components/threecards.css");
+@import url("./components/three-cards.css");
 @import url("./components/cta.css");
 @import url("./components/footer.css");
 
@@ -53,11 +54,13 @@ section{ margin: 200px auto 200px !important;}
 #card-2{
     bottom:-15%;
     right:-5%;
+    animation: mover-derecha-delay-50 6s ease-in;
 }
 
 #card-1{
     top:0;
     left:-5%;
+    animation: mover-izquierda-delay-50 6s ease-in;
 }
 
 /* La parte de las BRANDS */
@@ -83,6 +86,7 @@ section{ margin: 200px auto 200px !important;}
 
 .amazon{ width: 20%;}
 
+/* la parte de proyectos es three-cards.css */
 
 #cta{ 
     background-color: var(--yellow);
