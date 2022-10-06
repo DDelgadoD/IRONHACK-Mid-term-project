@@ -5,11 +5,7 @@
 </div>
 
 
-[![Button Icon]][Link]
-
-[Link]: # 'https://ddelgadod.github.io/IRONHACK-Mid-term-project/'
-
-[Button Icon]: https://img.shields.io/badge/-LINK-blue?style=for-the-badge&logoColor=white&logo=github
+[![](https://img.shields.io/badge/-LINK-blue?style=for-the-badge&logoColor=white&logo=github)]('https://ddelgadod.github.io/IRONHACK-Mid-term-project/')
 
 # Mid-term project
 
