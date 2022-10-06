@@ -1,9 +1,14 @@
 # My Solution
 
-<img src="https://github.com/DDelgadoD/IRONHACK-Mid-term-project/raw/master/images/readme-md/web-shoot.png" title="webshoot" alt="webshoot width:"500px"/>  
+<div>
+  <img src="https://github.com/DDelgadoD/IRONHACK-Mid-term-project/raw/master/images/readme-md/web-shoot.png" title="WebShoot" **alt="WebShoot" width="500" 
+</div>
 
-![Button Icon]][Link]
+
+[![Button Icon]][Link]
+
 [Link]: # 'https://ddelgadod.github.io/IRONHACK-Mid-term-project/'
+
 [Button Icon]: https://img.shields.io/badge/-LINK-blue?style=for-the-badge&logoColor=white&logo=github
 
 # Mid-term project
