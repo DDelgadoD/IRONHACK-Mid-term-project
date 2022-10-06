@@ -1,6 +1,6 @@
 # Mid-term project
 
-## My Solution
+## Mi Solución
 
 <div>
   <img src="https://github.com/DDelgadoD/IRONHACK-Mid-term-project/raw/master/images/readme-md/web-shoot.png" title="WebShoot" **alt="WebShoot" width="500" 
@@ -9,11 +9,11 @@
 
 [![](https://img.shields.io/badge/-LINK-blue?style=for-the-badge&logoColor=white&logo=github)](https://ddelgadod.github.io/IRONHACK-Mid-term-project/)
 
-
+## Enunciado
 
 En este proyecto, vais a construir vuestro primer sitio web totalmente responsivo utilizando las tecnologías que habéis aprendido hasta ahora: HTML, CSS y JavaScript.
 
-## Requisitos:
+### Requisitos:
 
 1. Recrear la [web propuesta](https://circle-agency-35d27e.webflow.io/) utilizando vuestros conocimientos de HTML y CSS. El sitio web está formado por tres páginas:
 
@@ -35,7 +35,7 @@ En este proyecto, vais a construir vuestro primer sitio web totalmente responsiv
 
 5. Es imprescindible que hagáis al menos un **COMMIT/PUSH diario** a vuestro repositorio en GiHub para que podamos hacer seguimiento de vuestro progreso. No obstante, es más que recomendable que hagáis commits con cierta frecuencia, es una buena práctica que vale la pena que incorporéis cuanto antes a vuestro proceso de trabajo. Y hablando de [buenas prácticas…](https://midu.dev/buenas-practicas-escribir-commits-git/)
 
-## Aclaraciones:
+### Aclaraciones:
 
 Encontraréis las imágenes necesarias en la [carpeta de Drive](https://drive.google.com/drive/folders/1s48zMkVPVFViY2Go1H6_4prQ3sAS--FV) además de un archivo .fig con información sobre las tipografías y los colores utilizados en la web, entre otros. Para poder trabajar con este archivo deberéis registraros en [Figma](https://www.figma.com/), es rápido y gratuito.
 
@@ -43,7 +43,7 @@ Si bien recomendamos [{JSON} Placeholder](https://jsonplaceholder.typicode.com/)
 
 Si queréis, podéis utilizar un framework de CSS, como Tailwing o Bulma. No obstante, si el framework escogido tiene JS, como es el caso de Bootstrap, solo podéis enlazar la parte de CSS y no la de JS.
 
-## Bonus:
+### Bonus:
 
 Por si hay quien se queda con ganas de más, una vez finalizados al 100% los requisitos base del Mid-term, podéis plantearos completar vuestra web con algunos extras de vuestra elección. Aquí os dejamos algunas ideas:
 
