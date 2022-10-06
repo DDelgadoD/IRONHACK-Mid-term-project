@@ -1,3 +1,8 @@
+# My Solution
+
+[Link](https://ddelgadod.github.io/IRONHACK-Mid-term-project/)
+
+
 # Mid-term project
 
 En este proyecto, vais a construir vuestro primer sitio web totalmente responsivo utilizando las tecnologías que habéis aprendido hasta ahora: HTML, CSS y JavaScript.
