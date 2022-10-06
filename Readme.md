@@ -5,7 +5,7 @@
 </div>
 
 
-[![](https://img.shields.io/badge/-LINK-blue?style=for-the-badge&logoColor=white&logo=github)]('https://ddelgadod.github.io/IRONHACK-Mid-term-project/')
+[![](https://img.shields.io/badge/-LINK-blue?style=for-the-badge&logoColor=white&logo=github)](https://ddelgadod.github.io/IRONHACK-Mid-term-project/)
 
 # Mid-term project
 
