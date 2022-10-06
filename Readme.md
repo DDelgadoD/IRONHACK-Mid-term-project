@@ -1,4 +1,6 @@
-# My Solution
+# Mid-term project
+
+## My Solution
 
 <div>
   <img src="https://github.com/DDelgadoD/IRONHACK-Mid-term-project/raw/master/images/readme-md/web-shoot.png" title="WebShoot" **alt="WebShoot" width="500" 
@@ -7,7 +9,7 @@
 
 [![](https://img.shields.io/badge/-LINK-blue?style=for-the-badge&logoColor=white&logo=github)](https://ddelgadod.github.io/IRONHACK-Mid-term-project/)
 
-# Mid-term project
+
 
 En este proyecto, vais a construir vuestro primer sitio web totalmente responsivo utilizando las tecnologías que habéis aprendido hasta ahora: HTML, CSS y JavaScript.
 
