@@ -13,9 +13,6 @@
 
 @import url("./animations.css");
 
-/* Todo lo que necesitas para hacerte tu propio navbar ¡A NAVEGAR!*/
-/* https://www.youtube.com/watch?v=m8OlDPqYBLw */
-
 html {
     background-color: var(--background);
 }
@@ -38,6 +35,9 @@ section {
     width: 90%;
     max-width: 1320px;
 }
+
+/* Todo lo que necesitas para hacerte tu propio navbar ¡A NAVEGAR!*/
+/* https://www.youtube.com/watch?v=m8OlDPqYBLw */
 
 .navbar-1 {
     margin-top: 70px;
