@@ -13,53 +13,76 @@
 
 @import url("./animations.css");
 
-
 /* Todo lo que necesitas para hacerte tu propio navbar ¡A NAVEGAR!*/
 /* https://www.youtube.com/watch?v=m8OlDPqYBLw */
 
-.background{ background-color: var(--background);}
-
-.navbar-1{ 
-    margin-top: 70px;
-    max-width: 1100px !important;
-;}
-
-.navbar-li{
-    justify-content: space-between;
-    margin-left:25%;
+html {
+    background-color: var(--background);
 }
 
-.navbar-li a{ 
-    color: var(--grey);
+.background {
+    background-color: var(--background);
+}
+
+body {
+    width: 100%;
+}
+
+.section-1100 {
+    width: 80%;
+    max-width: 1100px;
+}
+
+section {
+    margin: 100px auto 150px !important;
+    width: 90%;
+    max-width: 1320px;
+}
+
+.navbar-1 {
+    margin-top: 70px;
+    max-width: 1100px !important;
+}
+
+.navbar-li {
+    justify-content: space-between;
+    margin-left: 25%;
+}
+
+.navbar-li a {
+    color: var(--neutral-medium);
     margin: 0 5%;
 }
 
-.navbar-li a:hover{ background-color: inherit;}
-
-.navbar-li a:first-child{ 
-    color: var(--marine);
+.navbar-li a:hover {
+    background-color: inherit;
 }
 
-.logo{ 
+.navbar-li a:first-child {
+    color: var(--primary-default);
+}
+
+.logo {
     width: 60.53px;
     height: 18.46px;
     animation: bright-boom 3s ease-out;
-};
+}
 
 .button-bw {
-    height:fit-content;
+    height: fit-content;
 }
 
-.button-bw a{ 
-    color:white;
-    background-color: var(--marine);
+.button-bw a {
+    color: white;
+    background-color: var(--primary-default);
     padding: 15px 37px;
     gap: 10px;
-    animation: palpitate 1.5s linear infinite; 
+    animation: palpitate 1.5s linear infinite;
 }
 
-.button-bw a:hover{ background-color: var(--grey);}
+.button-bw a:hover {
+    background-color: var(--neutral-medium);
+}
 
 /* "This is the end, my only friend, THE END"*/
 /* https://www.youtube.com/watch?v=VScSEXRwUqQ*/
-

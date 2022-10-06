@@ -1,0 +1,45 @@
+/* Esto es lo que va al pie, el footer*/
+/* https://www.youtube.com/watch?v=SPlQpGeTbIE */
+
+footer {
+    margin: 200px auto 200px !important;
+    width: 90%;
+    height: 112px;
+    justify-content: space-between;
+    align-content: center;
+    color: var(--neutral-medium);
+}
+
+footer img {
+    width: 98.38px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+.dir {
+    max-width: 260px;
+}
+
+.dir p,
+.column-links div {
+    color: var(--neutral-medium);
+}
+
+@media screen and (max-width: 1023px) {
+    footer {
+        flex-direction: column;
+    }
+
+    .dir {
+        margin-bottom: 50px;
+        align-self: center;
+    }
+
+    .column-links {
+        align-self: center;
+        text-align: center;
+    }
+}
+
+/* It's the End */
+/* https://www.youtube.com/watch?v=Z0GFRcFm-aY */

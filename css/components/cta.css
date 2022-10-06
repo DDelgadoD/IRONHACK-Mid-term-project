@@ -1,0 +1,57 @@
+/* El cuadrado amarillo que parece no tener nada */
+/* https://www.youtube.com/watch?v=TdwJ0lUtN8M */
+
+#cta {
+    background-color: var(--yellow);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.center-title {
+    text-align: center;
+}
+
+.center-title p {
+    padding-bottom: 5%;
+}
+
+.super-padd {
+    padding: 9% 9%;
+}
+
+.box-mail {
+    display: flex;
+    justify-content: center;
+}
+
+#cta input {
+    width: 393px;
+    height: 80px;
+    padding-left: 70px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1023px) {
+    #cta input {
+        width: 100%;
+    }
+}
+.icon-plus {
+    margin-top: 20px;
+    width: 70px;
+    margin-left: 30px;
+}
+
+#cta .button-bw a {
+    width: 198px;
+    min-width: 150px;
+    max-height: 80px;
+    align-items: center;
+    padding: 30px 65px;
+}
+
+/* Esto es el final, SE ACABÓ */
+/* https://www.youtube.com/watch?v=av44ve-C2Ag */

@@ -1,7 +1,39 @@
-/* Con una línea solucionamos los estilos del navbar, ¡el CSS es fácil pregúnteme como!*/
+/* Con una línea solucionamos los estilos del navbar (incluyendo cosas generales), los proyectos, 
+   los servicios, el cta y el footer. ¡El CSS es fácil pregúnteme como!*/
 /* https://www.youtube.com/watch?v=RVmG_d3HKBA */
 
 @import url("./components/nav-bar.css");
 @import url("./components/three-cards.css");
 @import url("./components/cta.css");
 @import url("./components/footer.css");
+
+.images-pro {
+    height: 444px;
+    margin-top: 100px;
+    position: relative;
+    background: #ffffff;
+    box-shadow: 0px 38.7755px 77.551px rgba(0, 0, 0, 0.1);
+}
+
+.image-pro,
+.image-pro-blur {
+    background-image: url("../images/projects-section/1.jpg");
+    height: 444px;
+    width: 1100px;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+}
+
+.image-pro-blur {
+    opacity: 0.5;
+    filter: blur(40px);
+}
+
+.text-pro {
+    margin-top: 70px; 
+}
+
+.text-pro p{
+    margin-top: 30px; 
+}

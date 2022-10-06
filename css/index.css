@@ -1,8 +1,8 @@
 /*  Todo lo que necesitas para que tu landing-page quede rechulona! */
 /* https://www.youtube.com/watch?v=dw7c2mksw5g */
 
-/* Con una línea solucionamos los estilos del navbar, los proyectos, los servicios, el cta y el footer.
-   ¡El CSS es fácil pregúnteme como!*/
+/* Con una línea solucionamos los estilos del navbar (incluyendo cosas generales), los proyectos, 
+   los servicios, el cta y el footer. ¡El CSS es fácil pregúnteme como!*/
 /* https://www.youtube.com/watch?v=RVmG_d3HKBA */
 
 @import url("./components/nav-bar.css");
@@ -10,91 +10,93 @@
 @import url("./components/cta.css");
 @import url("./components/footer.css");
 
-html{ background-color: var(--background);}
-
-body{ width:100%;}
-
-.section-1100{
-    width: 80%;
-    max-width: 1100px; 
-}
-
-section{ margin: 200px auto 200px !important;}
+/* la parte del navbar está en navbar.css */
 
 /* La parte del chico empoderado que es nuestro HÉROE */
 /* https://www.youtube.com/watch?v=bWcASV2sey0*/
 
-.content{
+.content {
     flex-direction: column;
-    justify-content:center;
+    justify-content: center;
 }
 
-.empower{ color: var(--navy);}
+.empower {
+    color: var(--neutral-dark);
+}
 
-.circle{ 
-    color: var(--grey);
+.circle {
+    color: var(--neutral-medium);
     margin: 5% 0 10%;
 }
 
-.button-bw p{ 
-    display:inline-block;
+.button-bw p {
+    display: inline-block;
     margin-left: 5%;
-    color: var(--grey);   
+    color: var(--neutral-medium);
 }
 
-.images{ position:relative;}
+.images {
+    position: relative;
+}
 
-[id*="card-"]{
+[id*="card-"] {
     width: 50%;
     position: absolute;
 }
 
-[id*="card-"] > img{ object-fit: cover;}
+[id*="card-"] > img {
+    object-fit: cover;
+}
 
-#card-2{
-    bottom:-15%;
-    right:-5%;
+#card-2 {
+    bottom: -15%;
+    right: -5%;
     animation: mover-derecha-delay-50 6s ease-in;
 }
 
-#card-1{
-    top:0;
-    left:-5%;
+#card-1 {
+    top: 0;
+    left: -5%;
     animation: mover-izquierda-delay-50 6s ease-in;
 }
 
 /* La parte de las BRANDS */
 /* https://www.youtube.com/watch?v=OutlyuZFOWM*/
 
-#client{
-    padding-top:70px;
+#client {
+    padding-top: 70px;
     align-items: center;
-    justify-content:space-between;
+    justify-content: space-between;
 }
 
-#client img{
-    filter:grayscale(1);
+#client img {
+    filter: grayscale(1);
     width: 150px;
     height: 96px;
 }
 
-.brands{
+.brands {
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     min-width: 40%;
 }
 
-.amazon{ width: 20%;}
+.amazon {
+    width: 20%;
+}
 
 /* la parte de proyectos es three-cards.css */
 
-#cta{ 
-    background-color: var(--yellow);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+/* La parte de los testimonios */
+/* https://www.youtube.com/watch?v=2U6gingZ1lU */
+
+#testimonial {
+    background-color: var(--neutral-dark);
 }
 
-#testimonial{ background-color: var(--navy);}
+/* la parte de services es three-cards.css */
+/* la parte de cta está en cta.css */
+/* la parte de footer está en footer.css */
 
-.aspect-1{ aspect-ratio: 1;}
+/* I feel like this NEVER ENDING, pero esto es el final... */
+/* https://www.youtube.com/watch?v=pyHh1nZnNUQ */

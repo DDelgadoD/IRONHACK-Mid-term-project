@@ -1,14 +1,13 @@
 /* Animación que hace palpitar levemente el objeto para hacerlo más reseñable 
    para el usuario */
 
-@keyframes palpitate { 
-   
-    0%{
+@keyframes palpitate {
+    0% {
         transform: translateX(-0.25px);
         transform: scale(1.01, 1.01);
-    } 
-    
-    100%{
+    }
+
+    100% {
         transform: translate(0.25px);
     }
 }
@@ -17,55 +16,54 @@
    el máximo de tamaño lo hace "explotar" dandole color a través de una saturación del brillo */
 
 @keyframes bright-boom {
-    0%{
-        filter:grayscale();
+    0% {
+        filter: grayscale();
     }
 
-    94%{
-        filter:grayscale();
+    94% {
+        filter: grayscale();
     }
 
-    95%{
+    95% {
         filter: brightness(10);
         transform: scale(1.5, 1.5);
     }
 
-    96%{
+    96% {
         filter: brightness(20);
         transform: scale(1.4, 1.4);
     }
 
-    97%{
+    97% {
         filter: brightness(40);
         transform: scale(1.3, 1.3);
     }
 
-    98%{
+    98% {
         filter: brightness(20);
         transform: scale(1.2, 1.2);
     }
 
-    99%{
+    99% {
         filter: brightness(10);
         transform: scale(1.1, 1.1);
     }
-
 }
 
 /* Animación que mueve el objeto a la izquierda aplicando un delay en el movimiento 
    y aparición del mismo hacia su posición final del 50% del tiempo de animación */
 
 @keyframes mover-izquierda-delay-50 {
-    0%{
+    0% {
         opacity: 0%;
-        transform: translateX(-100px)
+        transform: translateX(-100px);
     }
 
-    50%{
+    50% {
         opacity: 0%;
     }
-    
-    100%{
+
+    100% {
         opacity: 100%;
         transform: translate(0);
     }
@@ -75,16 +73,16 @@
    y aparición del mismo hacia su posición final del 50% del tiempo de animación */
 
 @keyframes mover-derecha-delay-50 {
-    0%{
+    0% {
         opacity: 0%;
-        transform: translateX(100px)
+        transform: translateX(100px);
     }
-    
-    50%{
+
+    50% {
         opacity: 0%;
     }
-    
-    100%{
+
+    100% {
         opacity: 100%;
         transform: translate(0);
     }
