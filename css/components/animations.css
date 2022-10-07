@@ -87,3 +87,12 @@
         transform: translate(0);
     }
 }
+
+/* Animación que gira el div 360 grados */
+
+@keyframes rotate {
+    0% {
+        transform:rotate(360deg);
+    }
+    
+}

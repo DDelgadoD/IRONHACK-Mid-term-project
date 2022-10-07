@@ -92,6 +92,87 @@
 
 #testimonial {
     background-color: var(--neutral-dark);
+    background-image: url("../images/testimonial-section/orbit.png");
+    background-size: cover;
+    height: 622px;
+    position: relative;
+    margin: 200px auto 200px !important;
+    width: 90%;
+}
+
+#Ed,
+#Angela,
+#Mattew,
+#Kim {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    animation: rotate 6s 5s ease-in;
+}
+
+#Ed, #Angela{
+    left: 85%;
+}
+
+#Ed, #Kim{
+    top: 51px;
+}
+
+#Angela, #Mattew {
+    top: 399px;
+}
+
+#Mattew, #Kim{
+    left: 5%;
+}
+
+.memojis-box{
+    position: absolute;
+    max-width: 1100px;
+    height: 382px;
+    left: 10%;
+    top: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+
+}
+
+.yellow-text{
+    max-width: 596px;
+    color: var(--secondary);
+    line-height: 160%;
+    text-align: center;
+}
+
+.neutral-light-text{
+    max-width: 621px;
+    color: var(--background);
+    text-align: center;
+}
+
+.bolita{
+    background-image: url(../images/testimonial-section/profile.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+}
+
+.aparta-bola{
+    margin-left:10%;
+    width: 130px;
+}
+
+#testimonial .title{
+    color: var(--primary-hover);
+    
+}
+
+#testimonial .subtitle{
+    color: var(--background);
 }
 
 /* la parte de services es three-cards.css */

@@ -2,7 +2,7 @@
 /* https://www.youtube.com/watch?v=TdwJ0lUtN8M */
 
 #cta {
-    background-color: var(--yellow);
+    background-color: var(--secondary);
     display: flex;
     flex-direction: column;
     align-items: center;
