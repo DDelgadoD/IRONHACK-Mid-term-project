@@ -1,0 +1,99 @@
+css/contact.css:
+   1  /* Con una línea solucionamos los estilos del navbar, ¡el CSS es fácil pregúnteme como!*/
+   2: /* https://www.youtube.com/watch?v=RVmG_d3HKBA */
+
+   7  /* Solo nos queda el formulario... así qué: ¡a formulear Eva María! */
+   8: /* https://www.youtube.com/watch?v=HDlhXdJT3dg */
+ 
+
+  72  /* Hemos acabado por aquí ponemos la música de Ending mientras todo explota */
+  73: /* https://www.youtube.com/watch?v=5fR9xr66NmU */
+
+css/index.css:
+    1  /*  Todo lo que necesitas para que tu landing-page quede rechulona! */
+    2: /* https://www.youtube.com/watch?v=dw7c2mksw5g */
+    3  
+
+    5     los servicios, el cta y el footer. ¡El CSS es fácil pregúnteme como!*/
+    6: /* https://www.youtube.com/watch?v=RVmG_d3HKBA */
+    7  
+
+   15  /* La parte del chico empoderado que es nuestro HÉROE */
+   16: /* https://www.youtube.com/watch?v=bWcASV2sey0*/
+   17  
+
+   63  /* La parte de las BRANDS */
+   64: /* https://www.youtube.com/watch?v=OutlyuZFOWM*/
+   65  
+
+   90  /* La parte de los testimonios */
+   91: /* https://www.youtube.com/watch?v=2U6gingZ1lU */
+   92  
+
+  184  /* I feel like this NEVER ENDING, pero esto es el final... */
+  185: /* https://www.youtube.com/watch?v=pyHh1nZnNUQ */
+  186  
+
+css/project.css:
+  2     los servicios, el cta y el footer. ¡El CSS es fácil pregúnteme como!*/
+  3: /* https://www.youtube.com/watch?v=RVmG_d3HKBA */
+  4  
+
+css/components/colors-fonts.css:
+    1  /* Importamos las fuentes, que en realidad es ROBOTO solo */
+    2: /* https://www.youtube.com/watch?v=qORYO0atB6g*/
+    3  
+
+    6  /* Definimos los colores en la raíz del proyecto */
+    7: /* https://www.youtube.com/watch?v=e4RMh7NLHPY */
+    8  
+
+   22  /* Adaptamos las fuentes a las medidas del proyecto... changing */
+   23: /* https://www.youtube.com/watch?v=RSNmgE6L8AU */
+   24  
+
+  106  /* But in the end It doesn't even matter*/
+  107: /* https://www.youtube.com/watch?v=eVTXPUF4Oz4 */
+  108  
+
+css/components/cta.css:
+   1  /* El cuadrado amarillo que parece no tener nada */
+   2: /* https://www.youtube.com/watch?v=TdwJ0lUtN8M */
+   3  
+
+  56  /* Esto es el final, SE ACABÓ */
+  57: /* https://www.youtube.com/watch?v=av44ve-C2Ag */
+
+css/components/footer.css:
+   1  /* Esto es lo que va al pie, el footer*/
+   2: /* https://www.youtube.com/watch?v=SPlQpGeTbIE */
+   3  
+
+  44  /* It's the End */
+  45: /* https://www.youtube.com/watch?v=Z0GFRcFm-aY */
+
+css/components/nav-bar.css:
+    1  /* ¡Tu CSS ahora CON BULMA! */
+    2: /* https://www.youtube.com/watch?v=ra-Bl1iYG7g */
+    3  
+
+    6  /* ¡Y solo para las primeras llamadas las fuentes y colores definidas en el proyecto!*/
+    7: /* https://www.youtube.com/watch?v=fsQiHTSpiYw*/
+    8  
+
+   39  /* Todo lo que necesitas para hacerte tu propio navbar ¡A NAVEGAR!*/
+   40: /* https://www.youtube.com/watch?v=m8OlDPqYBLw */
+   41  
+
+  100  /* "This is the end, my only friend, THE END"*/
+  101: /* https://www.youtube.com/watch?v=VScSEXRwUqQ*/
+  102  
+
+css/components/three-cards.css:
+   1  /* La parte de los proyectos*/
+   2: /* https://www.youtube.com/watch?v=56hqrlQxMMI*/
+   3  
+
+  57  /* Happy ENDing */
+  58: /* https://www.youtube.com/watch?v=s8QYxmpuyxg */
+  59  

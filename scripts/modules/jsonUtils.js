@@ -1,4 +1,4 @@
-// Jason nos trae el vellocino de oro con esta función, pero el vellocino ni 
+// Jason nos trae el vellocino de oro con esta función, pero el vellocino ni
 // es una piel de oveja ni es de oro, es un texto de relleno en latín...
 
 // Función que nos trae el JSON
@@ -21,13 +21,18 @@ export function onPage(parent, childs, desiredLength, jsonPosts, initialPost) {
         let i = 2;
         childs.map((child) => {
             let post = Object.values(jsonPosts)[initialPost];
-            let postContent = Object.values(post)[i]
+            let postContent = Object.values(post)[i];
             // A ver señores la Api nos envia texto a su bola así que con nuestro L le vamos
             // a decir que cumpla con lo que necesitamos ya que es un texto de relleno.
             if (postContent.length > desiredLength[i - 2]) {
-                e.querySelector(child).innerHTML = postContent.slice(0, desiredLength[i - 2]);
+                e.querySelector(child).innerHTML = postContent.slice(
+                    0,
+                    desiredLength[i - 2]
+                );
             } else {
-                e.querySelector(child).innerHTML = postContent.repeat(desiredLength[i - 2] / postContent.length);
+                e.querySelector(child).innerHTML = postContent.repeat(
+                    desiredLength[i - 2] / postContent.length
+                );
             }
 
             i += 1;

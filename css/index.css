@@ -110,23 +110,27 @@
     animation: rotate 6s 5s ease-in;
 }
 
-#Ed, #Angela{
+#Ed,
+#Angela {
     left: 85%;
 }
 
-#Ed, #Kim{
+#Ed,
+#Kim {
     top: 51px;
 }
 
-#Angela, #Mattew {
+#Angela,
+#Mattew {
     top: 399px;
 }
 
-#Mattew, #Kim{
+#Mattew,
+#Kim {
     left: 5%;
 }
 
-.memojis-box{
+.memojis-box {
     position: absolute;
     max-width: 1100px;
     height: 382px;
@@ -134,25 +138,24 @@
     top: 20%;
     display: flex;
     flex-direction: column;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
-
 }
 
-.yellow-text{
+.yellow-text {
     max-width: 596px;
     color: var(--secondary);
     line-height: 160%;
     text-align: center;
 }
 
-.neutral-light-text{
+.neutral-light-text {
     max-width: 621px;
     color: var(--background);
     text-align: center;
 }
 
-.bolita{
+.bolita {
     background-image: url(../images/testimonial-section/profile.png);
     background-size: cover;
     background-position: center;
@@ -161,17 +164,16 @@
     height: 50px;
 }
 
-.aparta-bola{
-    margin-left:10%;
+.aparta-bola {
+    margin-left: 10%;
     width: 130px;
 }
 
-#testimonial .title{
+#testimonial .title {
     color: var(--primary-hover);
-    
 }
 
-#testimonial .subtitle{
+#testimonial .subtitle {
     color: var(--background);
 }
 

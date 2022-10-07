@@ -19,7 +19,7 @@
 .image-pro-blur {
     background-image: url("../images/projects-section/1.jpg");
     height: 444px;
-    width: 100%;    
+    width: 100%;
     background-size: cover;
     background-position: center;
     position: absolute;
@@ -31,9 +31,9 @@
 }
 
 .text-pro {
-    margin-top: 70px; 
+    margin-top: 70px;
 }
 
-.text-pro p{
-    margin-top: 30px; 
+.text-pro p {
+    margin-top: 30px;
 }

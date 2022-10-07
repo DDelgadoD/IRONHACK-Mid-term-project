@@ -1,13 +1,24 @@
-
-const validaMail = (valor) => {
-    if( !(/\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)/.test(valor)) ) { return false;}
+// Una alerta que hace que el prevent se demore una "varvaridad"
+function submitted() {
+    alert("The form was submitted");
 }
 
-const validaText = (valor) => {
-    if( valor == null || valor.length == 0 || /^\s+$/.test(valor) ) return false;
-}
+// La validación en realidad se hace en el css, esto solo muestra los valores
+const validate = (event, campos) => {
+    event.preventDefault();
+    submitted();
+    campos.map((input) => {
+        console.log(
+            `${document.querySelector(`${input}-label`).innerText}: ${
+                document.querySelector(input).value
+            }`
+        );
+        console.log();
+    });
+};
 
-const validaTel = (valor) => {
-    if( !(/^\d{9}$/.test(valor)) ) { return false;}
-}
-
+// Función que añade un listener al formulario
+export const addValidator = (formId, campos) => {
+    const form = document.querySelector(formId);
+    form.addEventListener("submit", (event) => validate(event, campos));
+};
