@@ -3,3 +3,69 @@
 
 @import url("./components/nav-bar.css");
 @import url("./components/footer.css");
+
+#contact-form input{
+    width:100%;
+    border-radius: 0;
+    border:0;
+    height: 70px;
+    padding-left: 2%;
+    background-color: rgba(107, 112, 141, 0.1);;
+    stroke: rgba(107, 112, 141, 0.5);;
+}
+
+#contact-form .is-grouped input{
+    padding-left: 4%;
+    display: flex;
+}
+
+.al-48{
+    width:48%;
+}
+
+@media screen and (max-width: 1024px) {
+    #contact-form .is-grouped{
+       
+       flex-direction: column;
+       width:100%;
+       
+    }
+
+    .al-48{
+        width:100%;
+    }
+}
+
+#contact-form textarea{
+    width:100%;
+    border-radius: 0;
+    border:0;
+    height: 200px;
+    padding-left: 2%;
+    padding-top: 2%;
+    background-color: rgba(107, 112, 141, 0.1);;
+    stroke: rgba(107, 112, 141, 0.5);;
+}
+
+#contact-form button{
+    width:100%;
+    border-radius: 0;
+    height: 80px;
+    background-color: var(--primary-default) ;
+    color:white;
+    margin-top: 2%;
+}
+
+#contact-form .field{
+    margin-top: 2%
+}
+
+#contact-form label{
+    margin-bottom:1%;
+    display:inline-block;
+}
+
+#contact-form .c-h1{
+    margin-bottom: 10%;
+}
+
