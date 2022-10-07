@@ -16,36 +16,37 @@
             >
                 <div class="navbar-brand">
                     <a class="navbar-item" href="#">
-                        <img class="logos" src="images/logos/circle.svg" />
+                        <img class="logo" src="images/logos/circle.svg" />
                     </a>
 
-                    <a
+                    <a  
+                        id="burger"
                         role="button"
                         class="navbar-burger"
                         aria-label="menu"
                         aria-expanded="false"
-                        data-target="navbarBasicExample"
+                        data-target="HappyMeal"
                     >
                         <span aria-hidden="true"></span>
                         <span aria-hidden="true"></span>
                         <span aria-hidden="true"></span>
                     </a>
+                    
                 </div>
 
-                <div class="navbar-menu navbar-li">
+                <div id="HappyMeal" class="navbar-menu navbar-li">
                     <div class="navbar-item">
-                        <a class="navbar-item hd-med" href="./index.html"
-                            >Home</a
-                        >
-                        <a class="navbar-item hd-med" href="#">Projects</a>
-                        <a class="navbar-item hd-med" href="#">Services</a>
+                        <a class="navbar-item nav-link nav-link-1 hd-med" href="./index.html">Home</a>
+                        <a class="navbar-item nav-link hd-med" href="./project.html">Projects</a>
+                        <a class="navbar-item nav-link hd-med">Services</a>
                     </div>
-                </div>
-
-                <div class="navbar-item button-bw is-hidden-touch">
-                    <a navbar-item class="hd-med" href="./contact.html"
-                        >Contact Us</a
-                    >
+                    
+                    <div class="navbar-item button-bw navbar-end is-hidden-touch">
+                        <a navbar-item class="hd-med" href="./contact.html"
+                            >Contact Us</a
+                        >
+                    </div>
+                       
                 </div>
             </nav>
         </header>
@@ -228,6 +229,7 @@
                 <div class="column is-one-third hd-reg">Privacy Policy</div>
             </div>
         </footer>
+        <script type="module" src="./scripts/modules/happyMeal.js"></script>
         <script type="module" src="./scripts/modules/jsonUtils.js"></script>
         <script type="module" src="./scripts/project.js"></script>
     </body>

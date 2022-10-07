@@ -19,7 +19,7 @@
 .image-pro-blur {
     background-image: url("../images/projects-section/1.jpg");
     height: 444px;
-    width: 1100px;
+    width: 100%;    
     background-size: cover;
     background-position: center;
     position: absolute;
